@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta class="equiv"=X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="container">
+      <div class="encriptador">
+        <textarea
+          name="texto" 
+          class="texto"
+          id="texto" 
+          cols="30" 
+          rows="10" 
+          placeholder="ingresa el texto aqui"
+       ></textarea> 
+
+     <div class="termino">
+        <p><solo letras minúsculas y sin acentos.</p>
+     </div>
+     <div class="botones">
+        <button class="btn encrptar" type="button" onclick="encriptar()">
+         encriptar
+        </button>
+        <input 
+          type="button" 
+          class="btn-desencriptar" 
+          value="Desencriptar" 
+          onclick="desencriptar()"
+        />
+     </div>
+    </div>
+    <div class="encriptador"></div>
+       <img src= alt="" id="muñeco">
+       <div class="mensaje-encrptado" id="mensaje encriptado">
+         <h2 id="Titulo mensjae">ningun mensaje fue encontrado</h2>
+         <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+         <textarea 
+           name="mensaje" 
+           id="mensjae" 
+           cols="30" 
+           rows="10" 
+           class="mensaje"
+           ></textarea>
+       </div>
+     </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
